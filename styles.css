@@ -1,16 +1,20 @@
 *{
   margin:0;
 }
+
+
 .modal {
+    max-width: 1200px;
+    max-height: 70%;
     width: 75%;
-    height: 50%;
+    height: 70%;
     padding: 0;
     border: 0;
     overflow: hidden;
     box-shadow: 0 0 1em rgb(0 0 0 / .3);
     position: relative;
     margin: 0 auto;
-    top: 25%;
+    top: 15%;
   }
 
   .modal::backdrop {
@@ -18,13 +22,92 @@
     opacity: 0.7;
   }
 
+  .Section-left {
+    width: 60%;
+    height: 100%
+  }
+
+  .Section-right {
+    width: 40%;
+    height: 100%;
+  }
+
   .mini-container {
     display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .close-button2{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .close-button{
+    height: 40%;
+    text-align: center;
+    margin: 5px;
+    align-self: baseline;
+    
+  }
+
+  .description {
+    position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  right: 0;
+  width: 40%;
+  text-align: left;
+  color: #000;
+  text-decoration: none;
+  box-sizing: content-box;
+  padding: 0;
+  }
+
+  .description-header {
+    display: flex;
+    height: 8%;
+    width: 100%;
     justify-content: space-between;
+    align-items: center;
+    }
+
+  .title {
+    margin-left: 5%;
   }
-  .img-small {
-    max-width: 700px;
+
+  .Button-Next {
+    display: flex;
+    height: 5%;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
   }
+
+  hr {
+    display: block;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+
+  .Button-Next-left {
+    height: 70%;
+    text-align: center;
+  }
+
+  .Button-Next-right {
+    height: 70%;
+    text-align: center;
+  }
+
+
+  .description-main {
+    height: 85%;
+    width: 80%;
+    margin-left: 10%;
+
+  }
+  
 
   
 
